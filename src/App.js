@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import { Link } from "react-router-dom";
+import "./App.css"
 
-function App() {
+export function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <nav className="nav">
+        <button><Link to="/">Sobre Mim</Link></button>
+        <button><Link to="/projetos">Projetos</Link></button>
+        <button><Link to="/habilidades">Habilidades</Link></button>
+        <button><Link to="/contatos">Contatos</Link></button>
+      </nav>
+      <h1>Gadiel Souza de Barros</h1>
+      <h2>Desenvolvedor Front End Júnior</h2>
     </div>
-  );
+  )
 }
 
-export default App;
+export function Projects() {
+  return (
+    <div className="container">
+      <nav className="nav">
+        <button><Link to="/">Sobre Mim</Link></button>
+        <button><Link to="/projetos">Projetos</Link></button>
+        <button><Link to="/habilidades">Habilidades</Link></button>
+        <button><Link to="/contatos">Contatos</Link></button>
+      </nav>
+      <h1>Meus Projetos</h1>
+    </div>
+  )
+}
+
+export function Skills() {
+  return (
+    <div className="container">
+      <nav className="nav">
+        <button><Link to="/">Sobre Mim</Link></button>
+        <button><Link to="/projetos">Projetos</Link></button>
+        <button><Link to="/habilidades">Habilidades</Link></button>
+        <button><Link to="/contatos">Contatos</Link></button>
+      </nav>
+      <div>
+      <h1>Tecnologias/Hard Skills</h1>
+      <h2>Principais Soft Skills</h2>
+      </div>
+    </div>
+  )
+}
+export function Contacts() {
+  return (
+    <div className="container">
+      <nav className="nav">
+        <button><Link to="/">Sobre Mim</Link></button>
+        <button><Link to="/projetos">Projetos</Link></button>
+        <button><Link to="/habilidades">Habilidades</Link></button>
+        <button><Link to="/contatos">Contatos</Link></button>
+      </nav>
+      <h1>Informações de contato</h1>
+    </div>
+  )
+}
