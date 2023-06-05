@@ -3,22 +3,22 @@
   margin: 0;
   padding: 0;
 }
-h1, h2 {
-  font-family: 'Caveat', cursive;
-  line-height: 1.25;
+a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
 }
-h1 {
-  font-size: 40px;
-}
-h2 {
-  font-size: 25px;
-}
+/* 
+Grande Tela : 1200px
+Notebook : 990px
+Tablet : 770px
+Celular : 640px
+*/
 body {
   font-size: 1rem;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,21,121,1) 50%, rgba(125,0,255,1) 100%);
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(180deg, rgba(39,40,56,1) 0%, rgba(46,64,82,1) 50%, rgba(13,59,102,1) 100%);
   color: #ffffff;
-  margin: 0;
-  padding: 0;
+  min-height: 100vh;
 }
 .container {
   display: flex;
@@ -26,17 +26,74 @@ body {
   justify-content: center;
   align-items: center;
 }
-.nav {
+h1, h2 {
+  font-family: 'Caveat', cursive;
+}
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .logo {
+  width: 60px;
+}
+.container .sobre {
+  font-size: 17px;
+  max-width: 500px;
+  line-height: 1.5;
+  background-color: #05204A;
+  padding: 20px;
+  border: 5px solid #272838;
+  border-radius: 20px;
+}
+.container .botao-avancar {
+  background-color: #177E89;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 7px;
+  transition: 0.1s ease-in-out;
+}
+.container .botao-avancar:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.container .skills-sub {
+  margin-bottom: 30px;
+}
+.spin {
+  animation:spin 8s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.menu {
   display: flex;
   gap: 20px;
-  padding: 20px;
+  padding: 30px 0 20px;
   width: 100%;
   justify-content: center;
 }
-nav button {
-  padding: 1px 6px;
-}
 nav a {
-  color: #2a2525;
-  text-decoration: none;
+  background-color: #177E89;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 7px;
+  transition: 0.1s ease-in-out;
+}
+nav a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }

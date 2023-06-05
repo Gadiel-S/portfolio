@@ -1,17 +1,20 @@
+import logo from './image/logo.svg';
 import { Link } from "react-router-dom";
 import "./App.css"
 
 export function Home() {
   return (
     <div className="container">
-      <nav className="nav">
-        <button><Link to="/">Sobre Mim</Link></button>
-        <button><Link to="/projetos">Projetos</Link></button>
-        <button><Link to="/habilidades">Habilidades</Link></button>
-        <button><Link to="/contatos">Contatos</Link></button>
+      <nav className='menu'>
+        <Link to="/">Sobre Mim</Link>
+        <Link to="/projetos">Projetos</Link>
+        <Link to="/habilidades">Habilidades</Link>
+        <Link to="/contatos">Contatos</Link>
       </nav>
       <h1>Gadiel Souza de Barros</h1>
-      <h2>Desenvolvedor Front End Júnior</h2>
+      <h2>Desenvolvedor Front End Júnior<img src={logo} className='logo spin' alt="logo" /></h2>
+      <p className='sobre'>Olá, me chamo Gadiel, sou um desenvolvedor Front End Júnior atualmente estudando para conseguir minha primeira oportunidade. Como desenvolvedor, me preocupo em construir soluções bem feitas e me esforço pra isso, sempre em busca de evolução e de novos conhecimentos. Me considero uma pessoa tranquila, resiliente e possuo facilidade de aprendizado.</p>
+      <Link className='botao-avancar' to="/projetos">Ver Projetos</Link>    
     </div>
   )
 }
@@ -19,13 +22,19 @@ export function Home() {
 export function Projects() {
   return (
     <div className="container">
-      <nav className="nav">
-        <button><Link to="/">Sobre Mim</Link></button>
-        <button><Link to="/projetos">Projetos</Link></button>
-        <button><Link to="/habilidades">Habilidades</Link></button>
-        <button><Link to="/contatos">Contatos</Link></button>
+      <nav className='menu'>
+        <Link to="/">Sobre Mim</Link>
+        <Link to="/projetos">Projetos</Link>
+        <Link to="/habilidades">Habilidades</Link>
+        <Link to="/contatos">Contatos</Link>
       </nav>
       <h1>Meus Projetos</h1>
+      <div className='projetos'>
+        <section className='projeto'>
+          <p></p>
+        </section>
+      </div>
+      <Link className='botao-avancar' to="/habilidades">Ver Habilidades</Link>
     </div>
   )
 }
@@ -33,29 +42,31 @@ export function Projects() {
 export function Skills() {
   return (
     <div className="container">
-      <nav className="nav">
-        <button><Link to="/">Sobre Mim</Link></button>
-        <button><Link to="/projetos">Projetos</Link></button>
-        <button><Link to="/habilidades">Habilidades</Link></button>
-        <button><Link to="/contatos">Contatos</Link></button>
+      <nav className='menu'>
+        <Link to="/">Sobre Mim</Link>
+        <Link to="/projetos">Projetos</Link>
+        <Link to="/habilidades">Habilidades</Link>
+        <Link to="/contatos">Contatos</Link>
       </nav>
       <div>
-      <h1>Tecnologias/Hard Skills</h1>
-      <h2>Principais Soft Skills</h2>
+      <h1>Habilidades</h1>
+      <h2 className='skills-sub'>Principais Soft Skills</h2>
       </div>
+      <Link className='botao-avancar' to="/contatos">Ver Contatos</Link>
     </div>
   )
 }
 export function Contacts() {
   return (
     <div className="container">
-      <nav className="nav">
-        <button><Link to="/">Sobre Mim</Link></button>
-        <button><Link to="/projetos">Projetos</Link></button>
-        <button><Link to="/habilidades">Habilidades</Link></button>
-        <button><Link to="/contatos">Contatos</Link></button>
+      <nav className='menu'>
+        <Link to="/">Sobre Mim</Link>
+        <Link to="/projetos">Projetos</Link>
+        <Link to="/habilidades">Habilidades</Link>
+        <Link to="/contatos">Contatos</Link>
       </nav>
       <h1>Informações de contato</h1>
+      <Link className='botao-avancar' to="/">Voltar ao início</Link>
     </div>
   )
 }
