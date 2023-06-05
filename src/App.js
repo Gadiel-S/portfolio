@@ -23,7 +23,6 @@ export function Home() {
           <a
             href="https://github.com/Gadiel-S"
             target="_blank"
-            rel="noreferrer"
           >
             <img className="sobre-link" src={github} alt="github" />
           </a>
