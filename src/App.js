@@ -1,4 +1,5 @@
 import logo from './image/logo.svg';
+import github from './image/github.svg'
 import { Link } from "react-router-dom";
 import "./App.css"
 
@@ -13,6 +14,10 @@ export function Home() {
       </nav>
       <h1>Gadiel Souza de Barros</h1>
       <h2>Desenvolvedor Front End Júnior<img src={logo} className='logo spin' alt="logo" /></h2>
+      {/* <ul>
+        <li><img className='sobre-link' src={github} alt='github' /></li>
+      </ul> */}
+      
       <p className='sobre'>Olá, me chamo Gadiel, sou um desenvolvedor Front End Júnior atualmente estudando para conseguir minha primeira oportunidade. Como desenvolvedor, me preocupo em construir soluções bem feitas e me esforço pra isso, sempre em busca de evolução e de novos conhecimentos. Me considero uma pessoa tranquila, resiliente e possuo facilidade de aprendizado.</p>
       <Link className='botao-avancar' to="/projetos">Ver Projetos</Link>    
     </div>
