@@ -34,7 +34,6 @@ h1 {
 }
 h2 {
   font-size: 30px;
-  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,12 +42,22 @@ h2 {
   width: 60px;
 }
 .container .sobre-links {
+  width: 100%;
+  margin: 20px 0;
+  list-style: none;
   display: flex;
+  gap: 40px;
   align-items: center;
   justify-content: center;
 }
 .container .sobre-link {
   max-width: 50px;
+  min-height: 50px;
+  transition: 0.1s ease-in-out;
+}
+.container .sobre-link:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .container .sobre {
   font-size: 17px;
