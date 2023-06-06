@@ -26,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Caveat', cursive;
 }
 h1 {
@@ -38,10 +38,13 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+h3 {
+  font-size: 24px;
+}
 .container .logo {
   width: 60px;
 }
-.container .sobre-links {
+.container .sobre-lista {
   width: 100%;
   margin: 20px 0;
   list-style: none;
@@ -64,36 +67,67 @@ h2 {
   max-width: 500px;
   line-height: 1.5;
   background-color: #05204A;
-  padding: 20px;
   border: 5px solid #272838;
+  padding: 20px;
   border-radius: 20px;
 }
-.container .botao-avancar {
-  background-color: #177E89;
+
+.container .projetos-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container .projeto {
+  max-width: 250px;
+  height: 325px;
+  padding: 5px 8px;
+  margin: 0 12px 15px;
+  background-color: #05204A;
+  border: 5px solid #272838;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container .projeto h3 {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 7px;
+}
+.container .projeto img {
+  width: 100%;
+  height: 125px;
+  transition: 0.2s ease-in-out;
+}
+.container .projeto img:hover {
+  transform: scale(1.05);
+}
+.container .projeto p {
+  overflow-y: scroll;
+  margin-right: 5px;
+}
+.container .projeto-botao {
+  background-color: #050401;
   color: #ffffff;
-  margin-top: 30px;
-  padding: 8px 20px;
+  font-size: 16px;
+  margin: 20px 0 10px;
+  padding: 8px 30px;
   border: none;
   border-radius: 7px;
   transition: 0.1s ease-in-out;
 }
-.container .botao-avancar:hover {
+.container .projeto-botao:hover {
   transform: scale(1.1);
   cursor: pointer;
+  background-color: #303036;
 }
-.container .skills-sub {
+
+.container .soft-container{
   margin-bottom: 30px;
 }
-.spin {
-  animation:spin 8s linear infinite;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.escondido {
+  display: none;
 }
 .menu {
   display: flex;
@@ -113,4 +147,30 @@ nav a {
 nav a:hover {
   transform: scale(1.1);
   cursor: pointer;
+  background-color: #13626b;
+}
+.spin {
+  animation:spin 8s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.container .botao-avancar {
+  background-color: #177E89;
+  color: #ffffff;
+  margin: 30px 0 40px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 7px;
+  transition: 0.1s ease-in-out;
+}
+.container .botao-avancar:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #13626b;
 }
