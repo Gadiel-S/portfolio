@@ -20,9 +20,184 @@
     />
 
     <title>Gadiel Souza de Barros - Desenvolvedor Front End</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .noscript-container a {
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        color: #3F84E5;
+      }
+      body {
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        background: linear-gradient(180deg, rgba(39,40,56,1) 0%, rgba(46,64,82,1) 50%, rgba(13,59,102,1) 100%);
+        color: #ffffff;
+        min-height: 100vh;
+      }
+      .noscript-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .noscript-container h1, h2, h3, h4 {
+        font-family: 'Caveat', cursive;
+      }
+      .noscript-container h1 {
+        font-size: 55px;
+        margin: 20px 0 5px;
+      }
+      .noscript-container h2 {
+        font-size: 30px;
+      }
+      .noscript-container h3 {
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
+      .noscript-container h4 {
+        font-size: 22px;
+      }
+      .noscript-sobre {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .noscript-sobre .lista {
+        margin: 20px 0;
+        list-style: none;
+        display: flex;
+        gap: 40px;
+      }
+      .noscript-sobre .descricao {
+        font-size: 17px;
+        max-width: 500px;
+        line-height: 1.5;
+        background-color: rgba(13,59,102,1);
+        border: 5px solid #272838;
+        padding: 20px;
+        border-radius: 20px;
+      }
+      .noscript-projetos {
+        margin: 30px 0 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .noscript-projetos .meuprojeto {
+        background-color: rgb(8, 43, 75);
+        border: 5px solid #272838;
+        border-radius: 20px;
+        max-width: 500px;
+        padding: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .noscript-projetos a {
+        margin: 10px 0 20px;
+      }
+      .noscript-habilidades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .noscript-contatos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <noscript>
+      <div class="noscript-container">
+        <div class="noscript-sobre">
+          <h1>Gadiel Souza de Barros</h1> 
+          <h2>
+            Desenvolvedor Front End Júnior
+          </h2>
+          <ul class="lista">
+            <li>
+              <a
+                href="https://github.com/Gadiel-S"
+                target="_blank"
+                rel="noreferrer"
+              >Github
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gadielsouzafrontend/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+
+          <p class="descricao">
+            Olá, me chamo Gadiel, sou um desenvolvedor Front End Júnior   atualmente estudando para conseguir minha primeira   oportunidade. Como desenvolvedor, me preocupo em construir   soluções bem feitas e me esforço pra isso, sempre em busca de   evolução e de novos conhecimentos. Me considero uma pessoa   tranquila, resiliente e possuo facilidade de aprendizado.
+          </p>
+        </div>
+
+        <div class="noscript-projetos">
+          <h3>Meus Projetos</h3>
+             <section class="meuprojeto">
+              <h4>Base Apparel Coming Soon</h4>
+              <a href="https://gadiel-s.github.io/ base-apparel-coming-soon/"     target="_blank"  rel="noreferrer">
+                Link do Projeto
+               </a>
+               <p>Página de "chegando em breve", onde há um campopara   enviar     seu email no qual ele é validado antesde ser   enviado, desenvolvido usando HTML, CSS eJavascript.</p>
+            </section>
+
+             <section class="meuprojeto">
+               <h4>Article Preview Component</h4>
+               <a href="https://gadiel-s.github.io/ article-preview-component/    " target="_blank"  rel="noreferrer">
+                 Link do Projeto
+              </a>
+              <p>Site com um artigo no meio com um botão que mostraas   redes
+                  sociais quando clicado, desenvolvido usando HTML,CSS e
+                  Javascript.</p>
+             </section>
+
+             <section class="meuprojeto">
+               <h4>FAQ Accordion Card</h4>
+               <a href="https://gadiel-s.github.io/faq-accordion-card/ "     target="_blank" rel="noreferrer">
+                 Link do Projeto
+              </a>
+               <p>Site de "Perguntas Feitas Frequentemente", ouFAQ,       desenvolvido usando HTML, CSS e Javascript.<p>
+            </section>
+        </div>
+
+        <div class="noscript-habilidades">
+          <h3>Habilidades</h3>
+            <section>
+              <h4>Tecnologias/Hard Skills</h4>
+            </section>
+            <section>
+              <h4>Principais Soft Skills</h4>
+            </section>
+        </div>
+
+        <div class="noscript-contatos">
+          <h3>Informações de contato</h3>
+        </div>
+      </div>
+  </noscript>
+  <div id="root"></div>
   </body>
 </html>
