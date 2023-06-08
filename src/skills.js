@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import html from "./image/html.png";
 import css from "./image/css.png";
 import javascript from "./image/javascript.png";
@@ -8,6 +7,7 @@ import git from "./image/git.png";
 import github from "./image/github.svg";
 import npm from "./image/npm.png";
 import mysql from "./image/mysql.png";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 export function Skills() {

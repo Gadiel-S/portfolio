@@ -1,6 +1,6 @@
 import logo from "./image/logo.svg";
-import github from "./image/github.svg";
 import linkedin from "./image/linkedin-in.svg";
+import github from "./image/github.svg";
 import { Link } from "react-router-dom";
 import "./App.css";
 
@@ -21,20 +21,20 @@ export function Home() {
       <ul className="sobre-lista">
         <li>
           <a
-            href="https://github.com/Gadiel-S"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="sobre-link" src={github} alt="github" />
-          </a>
-        </li>
-        <li>
-          <a
             href="https://www.linkedin.com/in/gadielsouzafrontend/"
             target="_blank"
             rel="noreferrer"
           >
-            <img className="sobre-link" src={linkedin} alt="linkedin" />
+            <img className="sobre-link" src={linkedin} alt="Linkedin" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Gadiel-S"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="sobre-link" src={github} alt="Github" />
           </a>
         </li>
       </ul>
