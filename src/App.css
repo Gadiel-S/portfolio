@@ -65,13 +65,12 @@ h3 {
 .container .sobre {
   font-size: 17px;
   max-width: 500px;
+  padding: 20px;
   line-height: 1.5;
   background-color: #05204A;
   border: 5px solid #272838;
-  padding: 20px;
   border-radius: 20px;
 }
-
 .container .projetos-container {
   margin-top: 20px;
   display: flex;
@@ -81,11 +80,12 @@ h3 {
 }
 .container .projeto {
   max-width: 250px;
-  height: 325px;
-  padding: 5px 8px;
+  height: 340px;
+  padding: 10px 8px;
   margin: 0 12px 15px;
   background-color: #05204A;
   border: 5px solid #272838;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -123,9 +123,67 @@ h3 {
   background-color: #303036;
 }
 
+.container .skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .hard-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px dashed black;
+  margin-bottom: 40px;
+}
+.container .hard-lista {
+  list-style: none;
+  margin: 30px 15px 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container .hard-lista li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.container .hard-lista img {
+  width: 50px;
+}
 .container .soft-container{
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+.container .soft-lista {
+  list-style: none;
+  margin: 30px 15px 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container .soft-lista li {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #05204A;
+  border: 3px solid #272838;
+  border-radius: 10px;
+}
+
+.container 
+
 .escondido {
   display: none;
 }
