@@ -7,9 +7,13 @@ import qrCode from "./image/capa-projeto-qr-code-components.jpeg";
 import pokedex from "./image/capa-projeto-pokedex.jpeg";
 import lastOfUs from "./image/capa-projeto-the-last-of-us.jpeg";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./App.css";
 
 export function Projects() {
+
+  const [mostrar,setMostrar] = useState(false)
+
   return (
     <div className="container">
       <nav className="menu">
@@ -66,7 +70,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="escondido">
+        <section className={mostrar?"projeto":"escondido"}>
           <h3>Interative Rating Component</h3>
           <a
             href="https://gadiel-s.github.io/interactive-rating-component/"
@@ -82,7 +86,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="escondido">
+        <section className={mostrar?"projeto":"escondido"}>
           <h3>Product Preview Card Component</h3>
           <a
             href="https://gadiel-s.github.io/product-preview-card-component/"
@@ -96,7 +100,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="escondido">
+        <section className={mostrar?"projeto":"escondido"}>
           <h3>QR Code Components</h3>
           <a
             href="https://gadiel-s.github.io/qr-codes-components/"
@@ -111,7 +115,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="escondido">
+        <section className={mostrar?"projeto":"escondido"}>
           <h3>Pokédex</h3>
           <a
             href="https://gadiel-s.github.io/projeto-pokedex/"
@@ -126,7 +130,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="escondido">
+        <section className={mostrar?"projeto":"escondido"}>
           <h3>The Last Of Us</h3>
           <a
             href="https://gadiel-s.github.io/projeto-the-last-of-us/"
@@ -142,7 +146,7 @@ export function Projects() {
           </p>
         </section>
       </div>
-      <button className="projeto-botao">Ver mais projetos</button>
+      <button onClick={() => setMostrar(!mostrar)}className="projeto-botao">{mostrar?"Ver menos":"Ver mais projetos"}</button>
       <Link className="botao-avancar" to="/habilidades">
         Ver Habilidades
       </Link>
