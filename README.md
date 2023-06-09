@@ -4,7 +4,7 @@ Esse é o meu portfolio com mais informações sobre mim.
 
 ## Screenshot
 
-![](./portfolio.png)
+![](./src/images/portfolio.png)
 
 ## Construído com
 
