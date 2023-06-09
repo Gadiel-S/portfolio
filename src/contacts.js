@@ -1,7 +1,6 @@
 import linkedin from "./image/linkedin-in.svg";
 import github from "./image/github.svg";
 import { Link } from "react-router-dom";
-import "./App.css";
 
 export function Contacts() {
   return (

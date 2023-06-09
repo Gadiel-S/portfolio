@@ -8,7 +8,6 @@ import github from "./image/github.svg";
 import npm from "./image/npm.png";
 import mysql from "./image/mysql.png";
 import { Link } from "react-router-dom";
-import "./App.css";
 
 export function Skills() {
   return (

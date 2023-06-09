@@ -8,7 +8,6 @@ import pokedex from "./image/capa-projeto-pokedex.jpeg";
 import lastOfUs from "./image/capa-projeto-the-last-of-us.jpeg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import "./App.css";
 
 export function Projects() {
 
