@@ -44,16 +44,17 @@ h3 {
 .container .sobre-link {
   max-width: 50px;
   min-height: 50px;
-  transition: 0.1s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .container .sobre-link:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   cursor: pointer;
 }
 .container .sobre {
   font-size: 17px;
   max-width: 500px;
   padding: 20px;
+  margin: 0 15px 0;
   line-height: 1.5;
   background-color: #05204A;
   border: 5px solid #272838;
@@ -193,7 +194,9 @@ h3 {
 .menu {
   display: flex;
   gap: 20px;
-  padding: 30px 0 20px;
+  flex-wrap: wrap;
+  margin: 30px 0 20px;
+  padding: 0 20px 0;
   width: 100%;
   justify-content: center;
 }
@@ -234,4 +237,27 @@ nav a:hover {
   transform: scale(1.1);
   cursor: pointer;
   background-color: #13626b;
+}
+@media screen and (max-width: 500px) {
+  .container h1 {
+    font-size: 40px;
+    margin: 0 7px 0;
+  }
+  .container h2 {
+    font-size: 30px;
+    flex-direction: column;
+    margin: 0 7px 0;
+  }
+  .container .sobre-link {
+    max-width: 35px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container h1 {
+    font-size: 35px;
+  }
+  .container h2 {
+    font-size: 24px;
+    flex-direction: column;
+  }
 }
