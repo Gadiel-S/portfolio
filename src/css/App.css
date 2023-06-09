@@ -1,9 +1,3 @@
-/* 
-Grande Tela : 1200px
-Notebook : 990px
-Tablet : 770px
-Celular : 640px
-*/
 .container {
   display: flex;
   flex-direction: column;
