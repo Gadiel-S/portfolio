@@ -1,5 +1,5 @@
-import linkedin from "./image/linkedin-in.svg";
-import github from "./image/github.svg";
+import linkedin from "./images/linkedin-in.svg";
+import github from "./images/github.svg";
 import { Link } from "react-router-dom";
 
 export function Contacts() {

@@ -1,11 +1,11 @@
-import baseApparel from "./image/capa-base-apparel-coming-soon.jpeg";
-import articlePreview from "./image/capa-article-preview-component.jpeg";
-import faqAccordion from "./image/capa-faq-accordion-card.jpeg";
-import ratingComponent from "./image/capa-interactive-rating-component.jpeg";
-import productPreview from "./image/capa-product-preview-card-component.jpeg";
-import qrCode from "./image/capa-projeto-qr-code-components.jpeg";
-import pokedex from "./image/capa-projeto-pokedex.jpeg";
-import lastOfUs from "./image/capa-projeto-the-last-of-us.jpeg";
+import baseApparel from "./images/capa-base-apparel-coming-soon.jpeg";
+import articlePreview from "./images/capa-article-preview-component.jpeg";
+import faqAccordion from "./images/capa-faq-accordion-card.jpeg";
+import ratingComponent from "./images/capa-interactive-rating-component.jpeg";
+import productPreview from "./images/capa-product-preview-card-component.jpeg";
+import qrCode from "./images/capa-projeto-qr-code-components.jpeg";
+import pokedex from "./images/capa-projeto-pokedex.jpeg";
+import lastOfUs from "./images/capa-projeto-the-last-of-us.jpeg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 

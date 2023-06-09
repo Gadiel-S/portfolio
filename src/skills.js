@@ -1,12 +1,12 @@
-import html from "./image/html.png";
-import css from "./image/css.png";
-import javascript from "./image/javascript.png";
-import react from "./image/reactjs.png";
-import typescript from "./image/typescript.png";
-import git from "./image/git.png";
-import github from "./image/github.svg";
-import npm from "./image/npm.png";
-import mysql from "./image/mysql.png";
+import html from "./images/html.png";
+import css from "./images/css.png";
+import javascript from "./images/javascript.png";
+import react from "./images/reactjs.png";
+import typescript from "./images/typescript.png";
+import git from "./images/git.png";
+import github from "./images/github.svg";
+import npm from "./images/npm.png";
+import mysql from "./images/mysql.png";
 import { Link } from "react-router-dom";
 
 export function Skills() {
