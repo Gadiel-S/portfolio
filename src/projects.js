@@ -22,8 +22,8 @@ export function Projects() {
         <Link to="/contatos">Contatos</Link>
       </nav>
       <h1>Meus Projetos</h1>
-      <div className="projetos-container">
-        <section className="projeto">
+      <div className="projects-container">
+        <section className="project">
           <h3>Base Apparel Coming Soon</h3>
           <a
             href="https://gadiel-s.github.io/base-apparel-coming-soon/"
@@ -39,7 +39,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="projeto">
+        <section className="project">
           <h3>Article Preview Component</h3>
           <a
             href="https://gadiel-s.github.io/article-preview-component/"
@@ -54,7 +54,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="projeto">
+        <section className="project">
           <h3>FAQ Accordion Card</h3>
           <a
             href="https://gadiel-s.github.io/faq-accordion-card/"
@@ -69,7 +69,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"projeto":"escondido"}>
+        <section className={mostrar?"project":"escondido"}>
           <h3>Interative Rating Component</h3>
           <a
             href="https://gadiel-s.github.io/interactive-rating-component/"
@@ -85,7 +85,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"projeto":"escondido"}>
+        <section className={mostrar?"project":"escondido"}>
           <h3>Product Preview Card Component</h3>
           <a
             href="https://gadiel-s.github.io/product-preview-card-component/"
@@ -99,7 +99,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"projeto":"escondido"}>
+        <section className={mostrar?"project":"escondido"}>
           <h3>QR Code Components</h3>
           <a
             href="https://gadiel-s.github.io/qr-codes-components/"
@@ -114,7 +114,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"projeto":"escondido"}>
+        <section className={mostrar?"project":"escondido"}>
           <h3>Pokédex</h3>
           <a
             href="https://gadiel-s.github.io/projeto-pokedex/"
@@ -129,7 +129,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"projeto":"escondido"}>
+        <section className={mostrar?"project":"escondido"}>
           <h3>The Last Of Us</h3>
           <a
             href="https://gadiel-s.github.io/projeto-the-last-of-us/"
@@ -145,7 +145,7 @@ export function Projects() {
           </p>
         </section>
       </div>
-      <button onClick={() => setMostrar(!mostrar)}className="projeto-botao">{mostrar?"Ver menos":"Ver mais projetos"}</button>
+      <button onClick={() => setMostrar(!mostrar)}className="project-button">{mostrar?"Ver menos":"Ver mais projetos"}</button>
       <Link className="botao-avancar" to="/habilidades">
         Ver Habilidades
       </Link>

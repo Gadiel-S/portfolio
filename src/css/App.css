@@ -59,14 +59,14 @@ h3 {
   border: 5px solid #272838;
   border-radius: 20px;
 }
-.container .projetos-container {
+.container .projects-container {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.container .projeto {
+.container .project {
   max-width: 250px;
   height: 340px;
   padding: 10px 8px;
@@ -78,24 +78,24 @@ h3 {
   flex-direction: column;
   gap: 5px;
 }
-.container .projeto h3 {
+.container .project h3 {
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   margin-bottom: 7px;
 }
-.container .projeto img {
+.container .project img {
   width: 100%;
   height: 125px;
   transition: 0.2s ease-in-out;
 }
-.container .projeto img:hover {
+.container .project img:hover {
   transform: scale(1.05);
 }
-.container .projeto p {
+.container .project p {
   overflow-y: scroll;
   margin-right: 5px;
 }
-.container .projeto-botao {
+.container .project-button {
   background-color: #050401;
   color: #ffffff;
   font-size: 16px;
@@ -105,7 +105,7 @@ h3 {
   border-radius: 7px;
   transition: 0.1s ease-in-out;
 }
-.container .projeto-botao:hover {
+.container .project-button:hover {
   transform: scale(1.1);
   cursor: pointer;
   background-color: #303036;
