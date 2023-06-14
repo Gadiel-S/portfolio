@@ -232,7 +232,7 @@ nav a:hover {
   cursor: pointer;
   background-color: #13626b;
 }
-@media screen and (max-width: 31.25rem) {
+@media screen and (max-width: 500px) {
   .container h1 {
     font-size: 2.5rem;
     margin: 0 0.4375rem 0;
@@ -246,7 +246,7 @@ nav a:hover {
     max-width: 2.1875rem;
   }
 }
-@media screen and (max-width: 23.75rem) {
+@media screen and (max-width: 380px) {
   .container h1 {
     font-size: 2.1875rem;
   }
