@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9b7d72e0.css",
-    "main.js": "/portfolio/static/js/main.47ab95d3.js",
+    "main.css": "/portfolio/static/css/main.93c943ee.css",
+    "main.js": "/portfolio/static/js/main.73ced1ef.js",
     "static/media/capa-projeto-pokedex.jpeg": "/portfolio/static/media/capa-projeto-pokedex.9e507a94b576b144b57a.jpeg",
     "static/media/capa-base-apparel-coming-soon.jpeg": "/portfolio/static/media/capa-base-apparel-coming-soon.219b65b8491d8c2b8424.jpeg",
+    "static/media/capa-notifications-page.png": "/portfolio/static/media/capa-notifications-page.af69cdf686c66f9683fe.png",
     "static/media/capa-projeto-the-last-of-us.jpeg": "/portfolio/static/media/capa-projeto-the-last-of-us.4f3def84b3a75ad94447.jpeg",
     "static/media/capa-article-preview-component.jpeg": "/portfolio/static/media/capa-article-preview-component.5a802108ff63135ffea5.jpeg",
     "static/media/capa-faq-accordion-card.jpeg": "/portfolio/static/media/capa-faq-accordion-card.8c477d687638fa3cbd00.jpeg",
@@ -20,11 +21,11 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/github.svg": "/portfolio/static/media/github.566c7bedaf3ffffa06be08bd6063eca1.svg",
     "static/media/linkedin-in.svg": "/portfolio/static/media/linkedin-in.0482c1237e7db4cb9ce4d782207c6874.svg",
-    "main.9b7d72e0.css.map": "/portfolio/static/css/main.9b7d72e0.css.map",
-    "main.47ab95d3.js.map": "/portfolio/static/js/main.47ab95d3.js.map"
+    "main.93c943ee.css.map": "/portfolio/static/css/main.93c943ee.css.map",
+    "main.73ced1ef.js.map": "/portfolio/static/js/main.73ced1ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b7d72e0.css",
-    "static/js/main.47ab95d3.js"
+    "static/css/main.93c943ee.css",
+    "static/js/main.73ced1ef.js"
   ]
 }
