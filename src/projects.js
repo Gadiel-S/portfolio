@@ -1,3 +1,4 @@
+import notifications from "./images/capa-notifications-page.png";
 import baseApparel from "./images/capa-base-apparel-coming-soon.jpeg";
 import articlePreview from "./images/capa-article-preview-component.jpeg";
 import faqAccordion from "./images/capa-faq-accordion-card.jpeg";
@@ -10,8 +11,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export function Projects() {
-
-  const [mostrar,setMostrar] = useState(false)
+  const [mostrar, setMostrar] = useState(false);
 
   return (
     <div className="container">
@@ -23,6 +23,22 @@ export function Projects() {
       </nav>
       <h1>Meus Projetos</h1>
       <div className="projects-container">
+        <section className="project">
+          <h3>Notifications Page</h3>
+          <a
+            href="https://gadiel-s.github.io/notifications-page/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={notifications} alt="Base Apparel" />
+          </a>
+          <p>
+            Página de notificações com notificações que quando clicadas, são
+            marcadas como lidas e o contador de notificações é então atualizado,
+            desenvolvido usando HTML, CSS e Javascript.
+          </p>
+        </section>
+
         <section className="project">
           <h3>Base Apparel Coming Soon</h3>
           <a
@@ -54,7 +70,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="project">
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>FAQ Accordion Card</h3>
           <a
             href="https://gadiel-s.github.io/faq-accordion-card/"
@@ -69,7 +85,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"project":"escondido"}>
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>Interative Rating Component</h3>
           <a
             href="https://gadiel-s.github.io/interactive-rating-component/"
@@ -85,7 +101,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"project":"escondido"}>
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>Product Preview Card Component</h3>
           <a
             href="https://gadiel-s.github.io/product-preview-card-component/"
@@ -99,7 +115,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"project":"escondido"}>
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>QR Code Components</h3>
           <a
             href="https://gadiel-s.github.io/qr-codes-components/"
@@ -114,7 +130,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"project":"escondido"}>
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>Pokédex</h3>
           <a
             href="https://gadiel-s.github.io/projeto-pokedex/"
@@ -129,7 +145,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className={mostrar?"project":"escondido"}>
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>The Last Of Us</h3>
           <a
             href="https://gadiel-s.github.io/projeto-the-last-of-us/"
@@ -145,7 +161,9 @@ export function Projects() {
           </p>
         </section>
       </div>
-      <button onClick={() => setMostrar(!mostrar)}className="project-button">{mostrar?"Ver menos":"Ver mais projetos"}</button>
+      <button onClick={() => setMostrar(!mostrar)} className="project-button">
+        {mostrar ? "Ver menos" : "Ver mais projetos"}
+      </button>
       <Link className="botao-avancar" to="/habilidades">
         Ver Habilidades
       </Link>
