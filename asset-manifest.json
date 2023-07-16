@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.93c943ee.css",
-    "main.js": "/portfolio/static/js/main.73ced1ef.js",
+    "main.js": "/portfolio/static/js/main.18645109.js",
+    "static/media/capa-blogr-landing-page.png": "/portfolio/static/media/capa-blogr-landing-page.346048dc1a606155daec.png",
     "static/media/capa-projeto-pokedex.jpeg": "/portfolio/static/media/capa-projeto-pokedex.9e507a94b576b144b57a.jpeg",
     "static/media/capa-base-apparel-coming-soon.jpeg": "/portfolio/static/media/capa-base-apparel-coming-soon.219b65b8491d8c2b8424.jpeg",
     "static/media/capa-notifications-page.png": "/portfolio/static/media/capa-notifications-page.af69cdf686c66f9683fe.png",
@@ -22,10 +23,10 @@
     "static/media/github.svg": "/portfolio/static/media/github.566c7bedaf3ffffa06be08bd6063eca1.svg",
     "static/media/linkedin-in.svg": "/portfolio/static/media/linkedin-in.0482c1237e7db4cb9ce4d782207c6874.svg",
     "main.93c943ee.css.map": "/portfolio/static/css/main.93c943ee.css.map",
-    "main.73ced1ef.js.map": "/portfolio/static/js/main.73ced1ef.js.map"
+    "main.18645109.js.map": "/portfolio/static/js/main.18645109.js.map"
   },
   "entrypoints": [
     "static/css/main.93c943ee.css",
-    "static/js/main.73ced1ef.js"
+    "static/js/main.18645109.js"
   ]
 }
