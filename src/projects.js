@@ -1,3 +1,4 @@
+import blogr from "./images/capa-blogr-landing-page.png";
 import notifications from "./images/capa-notifications-page.png";
 import baseApparel from "./images/capa-base-apparel-coming-soon.jpeg";
 import articlePreview from "./images/capa-article-preview-component.jpeg";
@@ -23,6 +24,18 @@ export function Projects() {
       </nav>
       <h1>Meus Projetos</h1>
       <div className="projects-container">
+      <section className="project">
+          <h3>Blogr Landing Page</h3>
+          <a
+            href="https://gadiel-s.github.io/Blogr-landing-page/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={blogr} alt="Blogr Landing Page" />
+          </a>
+          <p>Landing Page/site institucional de uma empresa fictícia chamada Blogr, desenvolvido utilizando Sass, Javascript, CSS e HTML.</p>
+        </section>
+
         <section className="project">
           <h3>Notifications Page</h3>
           <a
@@ -55,7 +68,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="project">
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>Article Preview Component</h3>
           <a
             href="https://gadiel-s.github.io/article-preview-component/"
