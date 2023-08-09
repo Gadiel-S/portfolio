@@ -1,3 +1,5 @@
+import api from "./images/capa-projeto-api.png";
+import advice from "./images/capa-advice-generator-app.png";
 import blogr from "./images/capa-blogr-landing-page.png";
 import notifications from "./images/capa-notifications-page.png";
 import baseApparel from "./images/capa-base-apparel-coming-soon.jpeg";
@@ -6,8 +8,6 @@ import faqAccordion from "./images/capa-faq-accordion-card.jpeg";
 import ratingComponent from "./images/capa-interactive-rating-component.jpeg";
 import productPreview from "./images/capa-product-preview-card-component.jpeg";
 import qrCode from "./images/capa-projeto-qr-code-components.jpeg";
-import pokedex from "./images/capa-projeto-pokedex.jpeg";
-import lastOfUs from "./images/capa-projeto-the-last-of-us.jpeg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -24,7 +24,24 @@ export function Projects() {
       </nav>
       <h1>Meus Projetos</h1>
       <div className="projects-container">
-      <section className="project">
+        <section className="project">
+          <h3>Advice Generator App</h3>
+          <a
+            href="https://gadiel-s.github.io/advice-generator-app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={advice} alt="Advice Generator app" />
+          </a>
+          <p>
+            Site que que mostra um conselho de número aleatório, e quando o
+            botão com um dado é clicado, é mostrado um outro conselho, mostrando
+            um aviso enquanto o conselho está sendo carregado, desenvolvido
+            utilizando HTML, CSS e Javascript.
+          </p>
+        </section>
+
+        <section className="project">
           <h3>Blogr Landing Page</h3>
           <a
             href="https://gadiel-s.github.io/Blogr-landing-page/"
@@ -33,7 +50,10 @@ export function Projects() {
           >
             <img src={blogr} alt="Blogr Landing Page" />
           </a>
-          <p>Landing Page/site institucional de uma empresa fictícia chamada Blogr, desenvolvido utilizando Sass, Javascript, CSS e HTML.</p>
+          <p>
+            Landing Page/site institucional de uma empresa fictícia chamada
+            Blogr, desenvolvido utilizando Sass, Javascript, CSS e HTML.
+          </p>
         </section>
 
         <section className="project">
@@ -52,7 +72,7 @@ export function Projects() {
           </p>
         </section>
 
-        <section className="project">
+        <section className={mostrar ? "project" : "escondido"}>
           <h3>Base Apparel Coming Soon</h3>
           <a
             href="https://gadiel-s.github.io/base-apparel-coming-soon/"
@@ -144,21 +164,24 @@ export function Projects() {
         </section>
 
         <section className={mostrar ? "project" : "escondido"}>
-          <h3>Pokédex</h3>
+          <h3>Projeto API</h3>
           <a
-            href="https://gadiel-s.github.io/projeto-pokedex/"
+            href="https://gadiel-s.github.io/projeto-api/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={pokedex} alt="Pokédex" />
+            <img src={api} alt="Capa projeto API" />
           </a>
           <p>
-            Esse é um site/projeto guiado de listagem de pokémon, desenvolvido
-            usando HTML, CSS e Javascript.
+            Esse é um projeto guiado feito para aprender como consumir APIs
+            externas. Nele são mostrados cada post de um blog com um botão de
+            ler que quando clicado leva para uma página com todas as postagens
+            com o mesmo id e uma área para fazer um post. Esse site foi
+            desenvolvido usando fetch do javascript, além de HTML e CSS básico.
           </p>
         </section>
 
-        <section className={mostrar ? "project" : "escondido"}>
+        {/* <section className={mostrar ? "project" : "escondido"}>
           <h3>The Last Of Us</h3>
           <a
             href="https://gadiel-s.github.io/projeto-the-last-of-us/"
@@ -172,7 +195,7 @@ export function Projects() {
             Us, desenvolvido usando HTML, CSS e Javascript. É um projeto guiado
             feito para aprender as bases dessas tecnologias.
           </p>
-        </section>
+        </section> */}
       </div>
       <button onClick={() => setMostrar(!mostrar)} className="project-button">
         {mostrar ? "Ver menos" : "Ver mais projetos"}
