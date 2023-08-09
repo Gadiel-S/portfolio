@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.93c943ee.css",
-    "main.js": "/portfolio/static/js/main.aed39f75.js",
+    "main.js": "/portfolio/static/js/main.7f6ac194.js",
     "static/media/capa-blogr-landing-page.png": "/portfolio/static/media/capa-blogr-landing-page.346048dc1a606155daec.png",
     "static/media/capa-base-apparel-coming-soon.jpeg": "/portfolio/static/media/capa-base-apparel-coming-soon.219b65b8491d8c2b8424.jpeg",
     "static/media/capa-notifications-page.png": "/portfolio/static/media/capa-notifications-page.af69cdf686c66f9683fe.png",
@@ -12,9 +12,11 @@
     "static/media/capa-projeto-qr-code-components.jpeg": "/portfolio/static/media/capa-projeto-qr-code-components.5c8723d64bf8ca81f473.jpeg",
     "static/media/capa-advice-generator-app.png": "/portfolio/static/media/capa-advice-generator-app.423d43f8287722aa3b11.png",
     "static/media/capa-interactive-rating-component.jpeg": "/portfolio/static/media/capa-interactive-rating-component.c5c9690b38cba5451069.jpeg",
+    "static/media/sass.png": "/portfolio/static/media/sass.c5da83bb9ff45b84e0e7.png",
     "static/media/css.png": "/portfolio/static/media/css.6eb18ad7d8487a413955.png",
     "static/media/npm.png": "/portfolio/static/media/npm.fd1b6528a0943ca467c7.png",
     "static/media/html.png": "/portfolio/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/typescript.png": "/portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
@@ -23,10 +25,10 @@
     "static/media/github.svg": "/portfolio/static/media/github.566c7bedaf3ffffa06be08bd6063eca1.svg",
     "static/media/linkedin-in.svg": "/portfolio/static/media/linkedin-in.0482c1237e7db4cb9ce4d782207c6874.svg",
     "main.93c943ee.css.map": "/portfolio/static/css/main.93c943ee.css.map",
-    "main.aed39f75.js.map": "/portfolio/static/js/main.aed39f75.js.map"
+    "main.7f6ac194.js.map": "/portfolio/static/js/main.7f6ac194.js.map"
   },
   "entrypoints": [
     "static/css/main.93c943ee.css",
-    "static/js/main.aed39f75.js"
+    "static/js/main.7f6ac194.js"
   ]
 }
