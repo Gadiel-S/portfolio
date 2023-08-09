@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.93c943ee.css",
-    "main.js": "/portfolio/static/js/main.18645109.js",
+    "main.js": "/portfolio/static/js/main.aed39f75.js",
     "static/media/capa-blogr-landing-page.png": "/portfolio/static/media/capa-blogr-landing-page.346048dc1a606155daec.png",
-    "static/media/capa-projeto-pokedex.jpeg": "/portfolio/static/media/capa-projeto-pokedex.9e507a94b576b144b57a.jpeg",
     "static/media/capa-base-apparel-coming-soon.jpeg": "/portfolio/static/media/capa-base-apparel-coming-soon.219b65b8491d8c2b8424.jpeg",
     "static/media/capa-notifications-page.png": "/portfolio/static/media/capa-notifications-page.af69cdf686c66f9683fe.png",
-    "static/media/capa-projeto-the-last-of-us.jpeg": "/portfolio/static/media/capa-projeto-the-last-of-us.4f3def84b3a75ad94447.jpeg",
+    "static/media/capa-projeto-api.png": "/portfolio/static/media/capa-projeto-api.445bc13dc514fe822281.png",
     "static/media/capa-article-preview-component.jpeg": "/portfolio/static/media/capa-article-preview-component.5a802108ff63135ffea5.jpeg",
     "static/media/capa-faq-accordion-card.jpeg": "/portfolio/static/media/capa-faq-accordion-card.8c477d687638fa3cbd00.jpeg",
     "static/media/capa-product-preview-card-component.jpeg": "/portfolio/static/media/capa-product-preview-card-component.5ab3a8e10565792dafce.jpeg",
     "static/media/capa-projeto-qr-code-components.jpeg": "/portfolio/static/media/capa-projeto-qr-code-components.5c8723d64bf8ca81f473.jpeg",
+    "static/media/capa-advice-generator-app.png": "/portfolio/static/media/capa-advice-generator-app.423d43f8287722aa3b11.png",
     "static/media/capa-interactive-rating-component.jpeg": "/portfolio/static/media/capa-interactive-rating-component.c5c9690b38cba5451069.jpeg",
     "static/media/css.png": "/portfolio/static/media/css.6eb18ad7d8487a413955.png",
     "static/media/npm.png": "/portfolio/static/media/npm.fd1b6528a0943ca467c7.png",
@@ -23,10 +23,10 @@
     "static/media/github.svg": "/portfolio/static/media/github.566c7bedaf3ffffa06be08bd6063eca1.svg",
     "static/media/linkedin-in.svg": "/portfolio/static/media/linkedin-in.0482c1237e7db4cb9ce4d782207c6874.svg",
     "main.93c943ee.css.map": "/portfolio/static/css/main.93c943ee.css.map",
-    "main.18645109.js.map": "/portfolio/static/js/main.18645109.js.map"
+    "main.aed39f75.js.map": "/portfolio/static/js/main.aed39f75.js.map"
   },
   "entrypoints": [
     "static/css/main.93c943ee.css",
-    "static/js/main.18645109.js"
+    "static/js/main.aed39f75.js"
   ]
 }
