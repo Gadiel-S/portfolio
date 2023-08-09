@@ -3,6 +3,8 @@ import css from "./images/css.png";
 import javascript from "./images/javascript.png";
 import react from "./images/reactjs.png";
 import typescript from "./images/typescript.png";
+import sass from "./images/sass.png";
+import bootstrap from "./images/bootstrap.png";
 import git from "./images/git.png";
 import github from "./images/github.svg";
 import npm from "./images/npm.png";
@@ -42,6 +44,14 @@ export function Skills() {
             <li>
               <p>Typescript</p>
               <img src={typescript} alt="Typescript" />
+            </li>
+            <li>
+              <p>Sass</p>
+              <img src={sass} alt="Sass" />
+            </li>
+            <li>
+              <p>Bootstrap</p>
+              <img src={bootstrap} alt="Bootstrap" />
             </li>
             <li>
               <p>Git</p>
